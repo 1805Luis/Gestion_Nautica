@@ -23,40 +23,41 @@ Para llevar a cabo está practica hemos necesitado:
      - SmartCard SLE5542
 
 ## 3. <a name="estructura"></a> Estructura del proyecto
+\*
+Proyecto/
+│
+├── - BBDD/                         # Archivo .sql en el que esta la creación de la base de datos, tablas, usuarios y algunos datos
+├── main.py                         # Archivo principal que ejecuta la aplicación
+├── config.py                       # Configuración general del proyecto
+├── conexion/
+│   ├── Conexion.py                 # Conexion para los usuarios normales
+│   └── ConexionAdmin.py            # Conexion para los usuarios administrador
+├── util/
+│   ├── util_ventana.py             # Funciones para manejar la ventana
+│   ├── metodos_comunes.py          # Funciones comunes en el codigo 
+│   ├── util_imagenes.py            # Funciones para cargar imágenes
+│   └── demon.py                    # Funciones del demonio para comprobar el estado del lector
+├── formularios/
+│   ├── form_admin_flota.py         # Panel de administar barcos
+│   ├── form_admin_socios.py        # Panel de administar socios
+│   ├── form_admin.py               # Panel de administra donde se despliega admin_flota y admin_socio
+│   ├── form_historico_reservas.py  # Panel para mostrar perfil del usuario
+│   ├── form_info_tarjeta.py        # Panel de información en la tarjeta (datos y reservas)
+│   ├── form_info.py                # Panel de informacion
+│   ├── form_maestro.py             # Panel principal
+│   ├── form_perfil.py              # Panel de administrar el perfil del socio de la tarjeta actual
+│   ├── form_registro.py            # Panel para el registro del usuario
+│   └── form_reservar.py            # Panel de reservas
+├── imagenes/
+│   ├── logo.ico                    # Icono de la app
+│   └── titulacion/                 # Imagenes de cada uno de los titulos
+└── modelos/
+    ├── Alquiler.py                 # Modelos para gestionar los alquileres
+    ├── Barco.py                    # Modelos para gestionar los barcos
+    ├── SmartCard.py                # Modelos para gestionar tarjetas inteligentes
+    └── Cliente.py                  # Modelos para gestionar clientes
 
-- Proyecto/
-    - BBDD/                                # Archivo .sql en el que esta la creación de la base de datos, tablas, usuarios y algunos datos
-    - main.py                          # Archivo principal que ejecuta la aplicación
-    - config.py                        # Configuración general del proyecto
-    - conexion/
-        - Conexion.py                  # Conexion para los usuarios normales
-        -  ConexionAdmin.py            # Conexion para los usuarios administrador
-    - util/
-        - util_ventana.py              # Funciones para manejar la ventana
-        - metodos_comunes.py           # Funciones comunes en el codigo 
-        -  util_imagenes.py            # Funciones para cargar imágenes
-        - demon.py                     # Funciones del demonio para comprobar el estado del lector
-    - formularios/
-        -  form_admin_flota.py         # Panel de administar barcos
-        -  form_admin_socios.py        # Panel de administar socios
-        -  form_admin.py               # Panel de administra donde se despliega admin_flota y admin_socio
-        -  form_historico_reservas.py  # Panel para mostrar perfil del usuario
-        - form_info_tarjeta.py         # Panel de información en la tarjeta (datos y reservas)
-        -  form_info.py                # Panel de informacion
-        -  form_maestro.py             # Panel principal
-        -  form_perfil.py              # Panel de administrar el perfil del socio de la tarjeta actual
-        - form_registro.py             # Panel para el registro del usuario
-        - form_reservar.py             # Panel de reservas
-    - imagenes/
-        - logo.ico                     # Icono de la app
-        - titulacion/                  # Imagenes de cada uno de los titulos
-    - modelos/
-        -  Alquiler.py                 # Modelos para gestionar los alquileres
-        -  Barco.py                    # Modelos para gestionar los barcos
-        -  SmartCard.py                # Modelos para gestionar tarjetas inteligentes
-        -  Cliente.py                  # Modelos para gestionar clientes
-
-
+\*
 ## 4. <a name="funcionalidades"></a> Funcionalidades
 
 - **Inicialización y Configuración de la Ventana:** Al iniciar la aplicación, se establece el título y el icono de la ventana, y se gestiona la conexión con el lector de tarjetas inteligentes.
@@ -88,7 +89,7 @@ Para llevar a cabo está practica hemos necesitado:
 ### Inicialización de la app
    - ***Usuario registrado***
        - Siendo admin<br>
-            ![Inicio_Admin](/imagenes_ejecucion/Inicio_Admin.png)
+            ![Inicio_Admin](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/Inicio_Admin.pn)
        - Siendo user<br>
             ![Inicio_User](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/Inicio_User.png)
    - ***Usuario no registrado***<br>
