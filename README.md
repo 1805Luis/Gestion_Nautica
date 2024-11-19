@@ -87,7 +87,7 @@ Para llevar a cabo está practica hemos necesitado:
 ## 5. <a name="flujo"></a> Flujo
 ### Inicialización de la app
    - ***Usuario registrado***
-       - Siendo admin
+       - Siendo admin<br>
             ![Inicio_Admin](./imagenes_ejecucion/Inicio_Admin.png)
        - Siendo user
             ![Inicio_User](.:/imagenes_ejecucion/Inicio_User.png)
