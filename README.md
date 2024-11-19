@@ -24,38 +24,37 @@ Para llevar a cabo está practica hemos necesitado:
 
 ## 3. <a name="estructura"></a> Estructura del proyecto
 
-Proyecto/
-│
-├── BBDD/                           #Archivo .sql en el que esta la creación de la base de datos, tablas, usuarios y algunos datos
-├── main.py                         # Archivo principal que ejecuta la aplicación
-├── config.py                       # Configuración general del proyecto
-├── conexion/
-│   ├── Conexion.py                 # Conexion para los usuarios normales
-│   └── ConexionAdmin.py            # Conexion para los usuarios administrador
-├── util/
-│   ├── util_ventana.py             # Funciones para manejar la ventana
-│   ├── metodos_comunes.py          # Funciones comunes en el codigo 
-│   ├── util_imagenes.py            # Funciones para cargar imágenes
-│   └── demon.py                    # Funciones del demonio para comprobar el estado del lector
-├── formularios/
-│   ├── form_admin_flota.py         # Panel de administar barcos
-│   ├── form_admin_socios.py        # Panel de administar socios
-│   ├── form_admin.py               # Panel de administra donde se despliega admin_flota y admin_socio
-│   ├── form_historico_reservas.py  # Panel para mostrar perfil del usuario
-│   ├── form_info_tarjeta.py        # Panel de información en la tarjeta (datos y reservas)
-│   ├── form_info.py                # Panel de informacion
-│   ├── form_maestro.py             # Panel principal
-│   ├── form_perfil.py              # Panel de administrar el perfil del socio de la tarjeta actual
-│   ├── form_registro.py            # Panel para el registro del usuario
-│   └── form_reservar.py            # Panel de reservas
-├── imagenes/
-│   ├── logo.ico                    # Icono de la app
-│   └── titulacion/                 # Imagenes de cada uno de los titulos
-└── modelos/
-    ├── Alquiler.py                 # Modelos para gestionar los alquileres
-    └── Barco.py                    # Modelos para gestionar los barcos
-    ├── SmartCard.py                # Modelos para gestionar tarjetas inteligentes
-    └── Cliente.py                  # Modelos para gestionar clientes
+- Proyecto/
+    - BBDD/                            # Archivo .sql en el que esta la creación de la base de datos, tablas, usuarios y algunos datos
+    - main.py                          # Archivo principal que ejecuta la aplicación
+    - config.py                        # Configuración general del proyecto
+    - conexion/
+        - Conexion.py                  # Conexion para los usuarios normales
+        -  ConexionAdmin.py            # Conexion para los usuarios administrador
+    - util/
+        - util_ventana.py              # Funciones para manejar la ventana
+        - metodos_comunes.py           # Funciones comunes en el codigo 
+        -  util_imagenes.py            # Funciones para cargar imágenes
+        - demon.py                     # Funciones del demonio para comprobar el estado del lector
+    - formularios/
+        -  form_admin_flota.py         # Panel de administar barcos
+        -  form_admin_socios.py        # Panel de administar socios
+        -  form_admin.py               # Panel de administra donde se despliega admin_flota y admin_socio
+        -  form_historico_reservas.py  # Panel para mostrar perfil del usuario
+        - form_info_tarjeta.py         # Panel de información en la tarjeta (datos y reservas)
+        -  form_info.py                # Panel de informacion
+        -  form_maestro.py             # Panel principal
+        -  form_perfil.py              # Panel de administrar el perfil del socio de la tarjeta actual
+        - form_registro.py             # Panel para el registro del usuario
+        - form_reservar.py             # Panel de reservas
+    - imagenes/
+        - logo.ico                     # Icono de la app
+        - titulacion/                  # Imagenes de cada uno de los titulos
+    - modelos/
+        -  Alquiler.py                 # Modelos para gestionar los alquileres
+        -  Barco.py                    # Modelos para gestionar los barcos
+        -  SmartCard.py                # Modelos para gestionar tarjetas inteligentes
+        -  Cliente.py                  # Modelos para gestionar clientes
 
 
 ## 4. <a name="funcionalidades"></a> Funcionalidades
@@ -89,36 +88,36 @@ Proyecto/
 ### Inicialización de la app
    - ***Usuario registrado***
        - Siendo admin
-            ![Inicio_Admin](imagenes_ejecucion/Inicio_Admin.png)
+            ![Inicio_Admin](./imagenes_ejecucion/Inicio_Admin.png)
        - Siendo user
-            ![Inicio_User](imagenes_ejecucion/Inicio_User.png)
+            ![Inicio_User](./imagenes_ejecucion/Inicio_User.png)
    - ***Usuario no registrado***
-            ![Registro](imagenes_ejecucion/Registro.png)
+            ![Registro](./imagenes_ejecucion/Registro.png)
 ### Interacción con los paneles
    - ***Perfil***
         - Información del Usuario
-            ![Perfil_User](imagenes_ejecucion/Perfil_User.png)
+            ![Perfil_User](./imagenes_ejecucion/Perfil_User.png)
         - Historial de Reservas
-            ![Grafica](imagenes_ejecucion/Perfil_Historico.png)
+            ![Grafica](./imagenes_ejecucion/Perfil_Historico.png)
             o también se puede observar en modo tabla
-            ![Tabla](imagenes_ejecucion/Perfil_HistoricoTablas.png)
+            ![Tabla](./imagenes_ejecucion/Perfil_HistoricoTablas.png)
    - ***Reservar***
         - Sin hacer reserva
-            ![Reservar](imagenes_ejecucion/Reservar.png)
+            ![Reservar](./imagenes_ejecucion/Reservar.png)
         - Hecha una reserva
-            ![Reserva_Exito](imagenes_ejecucion/ReservaActual_Reserva_Exito.png)
+            ![Reserva_Exito](./imagenes_ejecucion/ReservaActual_Reserva_Exito.png)
 
    - ***Reserva Actual***
       - Con una reserva
-            ![ReservaActual_ConReserva](imagenes_ejecucion/ReservaActual_ConReserva.png)
+            ![ReservaActual_ConReserva](./imagenes_ejecucion/ReservaActual_ConReserva.png)
       - Sin una reserva
-            ![ReservaActual_SinReserva](imagenes_ejecucion/ReservaActual_SinReserva.png)
+            ![ReservaActual_SinReserva](./imagenes_ejecucion/ReservaActual_SinReserva.png)
    - ***Administrar***
         - Administrar flota
-            ![Administrar_Flota](imagenes_ejecucion/Administrar_Flota.png)
+            ![Administrar_Flota](./imagenes_ejecucion/Administrar_Flota.png)
         - Usuarios
-            ![Administrar_User](imagenes_ejecucion/Administrar_User.png)
+            ![Administrar_User](./imagenes_ejecucion/Administrar_User.png)
    - ***Info***
-            ![Info](imagenes_ejecucion/Info.png)
+            ![Info](./imagenes_ejecucion/Info.png)
 
 
