@@ -25,7 +25,7 @@ Para llevar a cabo está practica hemos necesitado:
 ## 3. <a name="estructura"></a> Estructura del proyecto
 
 - Proyecto/
-    - BBDD/                            # Archivo .sql en el que esta la creación de la base de datos, tablas, usuarios y algunos datos
+    - BBDD/                                # Archivo .sql en el que esta la creación de la base de datos, tablas, usuarios y algunos datos
     - main.py                          # Archivo principal que ejecuta la aplicación
     - config.py                        # Configuración general del proyecto
     - conexion/
