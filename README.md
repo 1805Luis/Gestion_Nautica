@@ -67,11 +67,11 @@ Para llevar a cabo está practica hemos necesitado:
 
 - **Registro de Usuario:** Si no se detecta un número de socio válido o si es un usuario nuevo, se abre una ventana de registro (ventana_registro) que bloquea la interacción con la ventana principal hasta que el registro se complete.
 
-- **Interfaz de Usuario**  Una vez que se valida el número de socio y se valida que su cuenta esté activa, se inicializa la interfaz de usuario, configurando diversos paneles y controles:
+- **Interfaz de Usuario:**  Una vez que se valida el número de socio y se valida que su cuenta esté activa, se inicializa la interfaz de usuario, configurando diversos paneles y controles:
 
- - Barra Superior: Contiene el título de la aplicación, el icono del menú lateral, un botón de cierre de sesión y una etiqueta de bienvenida que muestra el nombre del usuario  extraído de la tarjeta.
+ - **Barra Superior:** Contiene el título de la aplicación, el icono del menú lateral, un botón de cierre de sesión y una etiqueta de bienvenida que muestra el nombre del usuario  extraído de la tarjeta.
 
- - Menú Lateral: Un menú que permite la navegación entre varias secciones de la aplicación, como el perfil de usuario, reservas y administración, esta ultima estará disponible solo para los administradores del sistema. Los botones del menú cambian de estilo cuando el ratón pasa sobre ellos, mejorando la experiencia de usuario.
+ - **Menú Lateral:** Un menú que permite la navegación entre varias secciones de la aplicación, como el perfil de usuario, reservas y administración, esta ultima estará disponible solo para los administradores del sistema. Los botones del menú cambian de estilo cuando el ratón pasa sobre ellos, mejorando la experiencia de usuario.
 
 - **Cuerpo Principal:** El área donde se cargan los formularios correspondientes según la sección seleccionada, como el formulario de reserva, información de perfil y gestión de reservas actuales.
 
@@ -90,7 +90,7 @@ Para llevar a cabo está practica hemos necesitado:
        - Siendo admin
             ![Inicio_Admin](./imagenes_ejecucion/Inicio_Admin.png)
        - Siendo user
-            ![Inicio_User](./imagenes_ejecucion/Inicio_User.png)
+            ![Inicio_User](.:/imagenes_ejecucion/Inicio_User.png)
    - ***Usuario no registrado***
             ![Registro](./imagenes_ejecucion/Registro.png)
 ### Interacción con los paneles
