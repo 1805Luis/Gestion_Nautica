@@ -88,7 +88,7 @@ Para llevar a cabo está practica hemos necesitado:
 ### Inicialización de la app
    - ***Usuario registrado***
        - Siendo admin<br>
-            ![Inicio_Admin](./imagenes_ejecucion/Inicio_Admin.png)
+            ![Inicio_Admin](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/Administar_Flota.png)
        - Siendo user<br>
             ![Inicio_User](.:/imagenes_ejecucion/Inicio_User.png)
    - ***Usuario no registrado***<br>
