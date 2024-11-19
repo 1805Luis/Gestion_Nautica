@@ -88,36 +88,36 @@ Para llevar a cabo está practica hemos necesitado:
 ### Inicialización de la app
    - ***Usuario registrado***
        - Siendo admin<br>
-            ![Inicio_Admin](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/Administar_Flota.png)
+            ![Inicio_Admin](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/Inicio_Admin.png)
        - Siendo user<br>
-            ![Inicio_User](.:/imagenes_ejecucion/Inicio_User.png)
+            ![Inicio_User](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/Inicio_User.png)
    - ***Usuario no registrado***<br>
-            ![Registro](./imagenes_ejecucion/Registro.png)
+            ![Registro](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/Registro.png)
 ### Interacción con los paneles
    - ***Perfil***
         - Información del Usuario<br>
-            ![Perfil_User](./imagenes_ejecucion/Perfil_User.png)
+            ![Perfil_User](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/Perfil_User.png)
         - Historial de Reservas<br>
-            ![Grafica](./imagenes_ejecucion/Perfil_Historico.png)
+            ![Grafica](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/Perfil_Historico.png)
             <br>o también se puede observar en modo tabla<br>
-            ![Tabla](./imagenes_ejecucion/Perfil_HistoricoTablas.png)
+            ![Tabla](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/Perfil_HistoricoTablas.png)
    - ***Reservar***
         - Sin hacer reserva<br>
-            ![Reservar](./imagenes_ejecucion/Reservar.png)
+            ![Reservar](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/Reservar.png)
         - Hecha una reserva<br>
-            ![Reserva_Exito](./imagenes_ejecucion/ReservaActual_Reserva_Exito.png)
+            ![Reserva_Exito](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/Reserva_Exito.)
 
    - ***Reserva Actual***
       - Con una reserva<br>
-            ![ReservaActual_ConReserva](./imagenes_ejecucion/ReservaActual_ConReserva.png)
+            ![ReservaActual_ConReserva](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/ReservaActual_ConReserva.png)
       - Sin una reserva<br>
-            ![ReservaActual_SinReserva](./imagenes_ejecucion/ReservaActual_SinReserva.png)
+            ![ReservaActual_SinReserva](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/ReservaActual_SinReserva.png)
    - ***Administrar***
         - Administrar flota<br>
-            ![Administrar_Flota](./imagenes_ejecucion/Administrar_Flota.png)
+            ![Administrar_Flota](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/Administar_Flota.png)
         - Usuarios<br>
-            ![Administrar_User](./imagenes_ejecucion/Administrar_User.png)
+            ![Administrar_User](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/Administar_User.png)
    - ***Info***<br>
-            ![Info](./imagenes_ejecucion/Info.png)
+            ![Info](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/Info.png)
 
 
