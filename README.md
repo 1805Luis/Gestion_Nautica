@@ -89,35 +89,35 @@ Para llevar a cabo está practica hemos necesitado:
    - ***Usuario registrado***
        - Siendo admin<br>
             ![Inicio_Admin](./imagenes_ejecucion/Inicio_Admin.png)
-       - Siendo user
+       - Siendo user<br>
             ![Inicio_User](.:/imagenes_ejecucion/Inicio_User.png)
-   - ***Usuario no registrado***
+   - ***Usuario no registrado***<br>
             ![Registro](./imagenes_ejecucion/Registro.png)
 ### Interacción con los paneles
    - ***Perfil***
-        - Información del Usuario
+        - Información del Usuario<br>
             ![Perfil_User](./imagenes_ejecucion/Perfil_User.png)
-        - Historial de Reservas
+        - Historial de Reservas<br>
             ![Grafica](./imagenes_ejecucion/Perfil_Historico.png)
-            o también se puede observar en modo tabla
+            <br>o también se puede observar en modo tabla<br>
             ![Tabla](./imagenes_ejecucion/Perfil_HistoricoTablas.png)
    - ***Reservar***
-        - Sin hacer reserva
+        - Sin hacer reserva<br>
             ![Reservar](./imagenes_ejecucion/Reservar.png)
-        - Hecha una reserva
+        - Hecha una reserva<br>
             ![Reserva_Exito](./imagenes_ejecucion/ReservaActual_Reserva_Exito.png)
 
    - ***Reserva Actual***
-      - Con una reserva
+      - Con una reserva<br>
             ![ReservaActual_ConReserva](./imagenes_ejecucion/ReservaActual_ConReserva.png)
-      - Sin una reserva
+      - Sin una reserva<br>
             ![ReservaActual_SinReserva](./imagenes_ejecucion/ReservaActual_SinReserva.png)
    - ***Administrar***
-        - Administrar flota
+        - Administrar flota<br>
             ![Administrar_Flota](./imagenes_ejecucion/Administrar_Flota.png)
-        - Usuarios
+        - Usuarios<br>
             ![Administrar_User](./imagenes_ejecucion/Administrar_User.png)
-   - ***Info***
+   - ***Info***<br>
             ![Info](./imagenes_ejecucion/Info.png)
 
 
