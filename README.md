@@ -1,4 +1,4 @@
-# Proyecto de Gestión de Reservas con Lectores de Tarjetas para un club Nautico
+# Proyecto de Gestión de Reservas con Lectores de Tarjetas para un Club Nautico
 
 ## Indice
 - [1. Breve descripción](#breve-descripción)
