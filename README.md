@@ -105,7 +105,7 @@ Para llevar a cabo está practica hemos necesitado:
         - Sin hacer reserva<br>
             ![Reservar](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/Reservar.png)
         - Hecha una reserva<br>
-            ![Reserva_Exito](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/Reserva_Exito.)
+            ![Reserva_Exito](https://github.com/1805Luis/Gestion_Nautica/blob/main/imagenes_ejecuci%C3%B3n/Reserva_Exito.png)
 
    - ***Reserva Actual***
       - Con una reserva<br>
